@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e8c1;
+    color: #333;
+    width: 100vw;
+  }
+  
+  .screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-image: url(./src/bg_screen1.jpg) ;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .screen-header{
+    width: 100%;
+    height: 150px;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    margin: 0 0 20% 0;
+  }
+
+  .title-screen{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFD700;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    z-index: 2;
+    opacity: 1 !important;
+  }
+
+  .screen-body{
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 
+      -1px -1px 0 black,
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+    color: #FFD700;
+
+  }
+  .screen h1{
+    border-radius: 15px 15px 15px 15px;
+    height:205px ;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+  }
+
+  .circle-header{
+    width:70%;
+    height: 100%;
+    background-color: rgba(140, 58, 29, 0.1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(44, 27, 15, 0.3);
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #screen2{
+    background-image: url(./src/bg_screen2.jpg);
+  }
+  #screen2 button{
+    margin: 65% 0 0 0;
+  }
+
+  #screen3{
+    width: 100%;
+    background-image: url(./src/bg_screen3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #screen3 .content{
+    width:100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+  #screen3 h1{
+    width:70%;
+    height: 100%;
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #FFD700; /* dourado */
+  background-color: #8C3A1D; /* marrom Rei Leão */
+  padding: 20px 30px;
+  border-radius: 15px;
+  -webkit-text-stroke: 1px #2C1B0F; /* contorno escuro */
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 30px auto;
+}
